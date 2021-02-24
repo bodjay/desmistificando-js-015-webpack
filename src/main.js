@@ -5,7 +5,7 @@ import './style.css';
 function component() {
   const element = document.createElement('div');
 
-  element.innerHTML = _.join(['Desmitificando JS', 'webpack'], ' - ');
+  element.innerHTML = _.join(['Desmitificando JS', 'Webpack'], ' - ');
 
   return element;
 }

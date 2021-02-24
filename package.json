@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "watch": "npm run build -- --watch"
   },
   "keywords": [],
   "author": "",
